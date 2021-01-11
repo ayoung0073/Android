@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <size android:width="200dp" android:height="120dp"/>
+    <stroke android:width="1dp" android:color="#0000ff"/>  <!--테두리선-->
+    <solid android:color="#aaddff"/>
+    <padding android:bottom="1dp"/>
+</shape>
+<!--selector는 상태drawble을 만들때 사용, shape은 도형-->
+<!--그래픽이지만 화면엔 이미지처럼 보이는 파일인 것-->

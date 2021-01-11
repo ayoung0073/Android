@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Challenge13</string>
+    <string name="profile_name">▷ 이름: 문아영</string>
+    <string name="profile_birth">▷ 생년월일: 2000-07-03</string>
+    <string name="profile_address">▷ 주소: 서울특별시 송파구</string>
+    <string name="profile_MBTI">▷ MBTI: ENFP</string>
+
+    <string name="profile_school">
+        ▷ 학력\n
+        - 도곡초등학교 졸업\n
+        - 진선여자중학교 졸업\n
+        - 진선여자고등학교 졸업\n
+        - 이화여자대학교 소프트웨어학부 사이버보안전공 재학 중
+    </string>
+
+    <string name="profile_homepage">▷ 홈페이지 </string>
+
+    <string name="profile_url1"> - 네이버 블로그: blog.naver.com/ayong0310</string>
+    <string name="profile_url2"> - 인스타그램: www.instagram.com/__a_young</string>
+    <string name="profile_url3"> - 카카오톡 ID: aaaa73</string>
+</resources>

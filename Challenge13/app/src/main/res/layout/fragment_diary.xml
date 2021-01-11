@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffefd5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/homeBT"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textDiaryTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/home_draw"
+            android:gravity="center"
+            android:text="다이어리"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/diaryListBT"
+                android:layout_width="68dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="5dp"
+                android:background="#7A000000"
+                android:text="목록"
+                android:textAllCaps="false"
+                android:textColor="#ffefd5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editDiaryDate"
+                        android:layout_width="159dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="6"
+                        android:ems="10"
+                        android:hint="날짜"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="4dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp" />
+
+                    <Button
+                        android:id="@+id/diaryWriteBT"
+                        android:layout_width="7dp"
+                        android:layout_height="34dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="3"
+                        android:background="#A89B86"
+                        android:text="작성"
+                        android:textColor="#ffefd5"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editDiaryContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/diary_text"
+                        android:ems="10"
+                        android:gravity="start"
+                        android:hint="내용"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="4dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp" />
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/homeBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="#A89B86"
+        android:text="HOME"
+        android:textColor="#CF000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

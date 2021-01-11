@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+
+    <translate
+        android:fromXDelta="100%p"
+        android:toXDelta="0%p"
+        android:duration="500"
+        android:repeatCount="0"
+        android:fillAfter="true" />
+
+
+<!--    fromXDelta: 어디서부터 애니메이션을 시작할 건지(100%p: 오른쪽 끝부터)
+        toXDelta: 애니메이션이 끝나는 지점(0%p: 왼쪽 끝까지)
+        duration: 500 -> 5초동안
+        repeatCount: 반복할 횟수
+        fillAfter: 대상이 원래대로 돌아오는 것 막음   -->
+
+</set>

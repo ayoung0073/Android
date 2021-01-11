@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/finger_pressed"/>
+    <item android:drawable="@drawable/finger"/>
+</selector>
+<!--그냥 이미지를 넣으면 imageView와 같지만 xml 파일을 이용하면 버튼이미지로 가능-->

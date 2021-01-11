@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="#8C7272"
+        android:padding="5dp"
+        android:text="소리 울리기"
+        android:textColor="#F8F0F0" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_marginTop="12dp"
+        android:background="#8C7272"
+        android:padding="5dp"
+        android:text="파일로 소리 울리기"
+        android:textColor="#F8F0F0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="20dp"
+        android:background="#8C7272"
+        android:padding="5dp"
+        android:text="진동 울리기"
+        android:textColor="#F8F0F0" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="#D6C4C4"
+        android:padding="4dp"
+        android:text="알림 띄우기" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="161dp"
+        android:layout_height="53dp"
+        android:layout_margin="4dp"
+        android:background="#D6C4C4"
+        android:padding="4dp"
+        android:text="알림 띄우고 클릭하기" />
+</LinearLayout>

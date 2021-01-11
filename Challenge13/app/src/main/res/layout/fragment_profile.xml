@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffefd5"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/homeBT"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageProfile"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/profile" />
+
+            <TextView
+                android:id="@+id/profileTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="13dp"
+                android:background="#A89B86"
+                android:gravity="center"
+                android:text="PROFILE"
+                android:textColor="#CF50340B"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="6dp"
+                android:text="@string/profile_name"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="6dp"
+                android:text="@string/profile_birth"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="6dp"
+                android:text="@string/profile_address"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="6dp"
+                android:text="@string/profile_MBTI"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="6dp"
+                android:text="@string/profile_school"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="6dp"
+                android:text="@string/profile_homepage"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileUrl1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="@string/profile_url1"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileUrl2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="@string/profile_url2"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileUrl3"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:layout_marginLeft="8dp"
+                android:text="@string/profile_url3"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/homeBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="#A89B86"
+        android:text="HOME"
+        android:textColor="#CF000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
